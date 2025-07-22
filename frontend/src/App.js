@@ -21,7 +21,7 @@ export default function App() {
     formData.append("media", file);
 
     try {
-      const response = await fetch("https://your-backend-url.onrender.com/analyze", {
+      const response = await fetch("https://workspace--5000.replit.app/analyze", {
         method: "POST",
         body: formData,
       });
